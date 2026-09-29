@@ -138,15 +138,23 @@ The mobile app is built with React Native CLI, so native iOS and Android builds,
 
 ## Screenshots and product walkthrough
 
-All screenshots below use sanitized or demonstration data. No customer information is shown.
+Web screenshots are taken from a demonstration environment with fictional data ("DENEME" is Turkish for "trial"). The mobile screenshot is the promotional image from the app's public App Store listing. No customer information is shown. The product interface is in Turkish; the captions describe what each screen shows.
 
-| ![Web dashboard](assets/docasist-dashboard.webp) | ![Risk analysis on mobile](assets/mobile-risk-analysis.webp) |
+| ![Web dashboard](assets/docasist-dashboard.webp) | ![Risk analysis](assets/risk-analysis.webp) |
 |:--:|:--:|
-| **Web dashboard.** The starting point for office-side work: an overview of the organization's current safety activity, from which planning, analyses and reports are reached. | **Risk analysis on mobile.** A risk analysis being worked on in the React Native app, showing how scoring inputs are captured on a small screen. |
+| **Web dashboard.** The starting point for office-side work: overdue and upcoming obligations, open corrective actions, high-risk items and critical warnings for the selected workplace, filtered by period and module. | **Risk analysis.** A 5x5 L-Matrix assessment for a workplace: status counts at the top, the hazard-source table with scores and deadlines below, and the PDF report action in the header. |
 | ![Field observation](assets/field-observation.webp) | ![Corrective actions](assets/corrective-actions.webp) |
-| **Field observation.** An observation recorded during a site visit, with its findings and attached photos. This is the entry point for the finding-to-action flow. | **Corrective action tracking.** Corrective actions with owners, due dates and status, showing how findings are followed until they are closed. |
-| ![Annual plan](assets/annual-plan.webp) | ![Generated PDF report](assets/generated-report.webp) |
-| **Annual plan.** A yearly plan for a workplace with its detail lines, showing how planned activities are laid out and tracked over the year. | **Generated report.** A PDF report produced by the system from the same records shown in the application, demonstrating the server-side report layout. |
+| **Field observation.** A single observation from a site visit: date and deadline, department, activity, hazard source, the risk it creates, the current situation and the required measures. This record is what later becomes a finding and a corrective action. | **Corrective action tracking.** The DÖF (corrective and preventive action) kanban board with open, in-progress, awaiting-verification and closed columns, showing overdue items and evidence review. |
+| ![Annual plan](assets/annual-plan.webp) | ![Generated report](assets/generated-report.webp) |
+| **Annual plan.** A yearly work plan for a workplace: plan metadata (period, document and revision numbers) and the work-area table of planned items, each tied to the relevant regulation and a responsible person. | **Generated report.** The field observation report rendered from the same record shown above, including the L-Matrix scoring block. The same template is exported as a PDF. |
+
+### Mobile application
+
+<p align="center">
+  <img src="assets/mobile-field-observation.webp" alt="Field observation form in the Docasist mobile app" width="300">
+</p>
+
+**Field observation on mobile.** The field observation form in the React Native app, as shown on the app's public App Store listing: a photo of the finding, the hazard and current situation, an L-Matrix risk score and a deadline are captured in a single form. The listing also highlights offline use in the field.
 
 [ADD SCREENSHOT: AI-assisted hazard identification, showing a photo and the suggested hazards returned for review]
 
@@ -191,8 +199,8 @@ No user, revenue or performance figures are published in this case study.
 ## Links
 
 - Product website: [docasist.com](https://docasist.com)
-- iOS app on the App Store: [ADD VERIFIED INFORMATION: App Store link]
-- Android app on Google Play: [ADD VERIFIED INFORMATION: Google Play link]
+- iOS app on the App Store: [apps.apple.com/tr/app/docasist/id6764633622](https://apps.apple.com/tr/app/docasist/id6764633622)
+- Android app on Google Play: [play.google.com/store/apps/details?id=com.docasist](https://play.google.com/store/apps/details?id=com.docasist)
 - Kombobit: [ADD VERIFIED INFORMATION: company website]
 - My profile: [ADD VERIFIED INFORMATION: GitHub or LinkedIn link]
 
